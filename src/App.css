@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.navbar-brand{
+  width: 190px;
+}
+
+.nav-link{
+  width: 290px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
