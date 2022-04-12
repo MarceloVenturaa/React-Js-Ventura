@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.titulo{
+  color: orange;
+}
+
 .navbar-brand{
   width: 190px;
 }

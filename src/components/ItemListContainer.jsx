@@ -1,6 +1,8 @@
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
     return (
-        <Wrapper>{greeting}</Wrapper>
+        <>
+         <div>Bienvenidos a mi página!!!</div>
+        </>
     );
 }
 

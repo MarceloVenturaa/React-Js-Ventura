@@ -3,7 +3,7 @@ const Navbar = () => {
     return(
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Ventura</a>
+    <a className="navbar-brand" href="#">CATARSIS</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -15,8 +15,9 @@ const Navbar = () => {
       </div>
     </div>
   </div>
+  <CartWidget />
 </nav>
 );
 }
-<CartWidget />
+
 export default Navbar;
